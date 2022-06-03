@@ -42,7 +42,6 @@ struct Graph* createGraph(int vertices){
 void addEdge(struct Graph* graph, int s, int d){
     //add edge from s to d
     struct node* newNode = createNode(d);
-    printf("[  %d  ]", graph->adjLists[s]);
     newNode->next = graph->adjLists[s];
     graph->adjLists[s] = newNode;
 

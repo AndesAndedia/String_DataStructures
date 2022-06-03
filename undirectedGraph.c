@@ -18,9 +18,10 @@ void displayMatrix(int v){
 }
 
 void add_edge(int u, int v){
+    // dari u ke v
     matriks[u][v]=1;
 
-    // Gimana kalo undirected?
+    // dari v ke u
     matriks[v][u]=1;
 }
 
