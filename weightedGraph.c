@@ -21,7 +21,7 @@ void add_edge(int u, int v, int bobot){
     matriks[u][v]=bobot;
 
     // Aku mau undirected bang
-    // matriks[v][u]=bobot;
+    matriks[v][u]=bobot;
 }
 
 int main(){

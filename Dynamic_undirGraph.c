@@ -78,9 +78,9 @@ int main(){
     for(i=0;i<x;i++){
         printf("\nProses penambahan edge!\n");
         printf("Masukkan vertex : ");
-        scanf("%d", &vertex);
+        scanf("%d", &vertex); //asal
         printf("masukkan edge : ");
-        scanf("%d", &edge);
+        scanf("%d", &edge); //tujuan
         addEdge(graph, vertex, edge);
     }
     printGraph(graph);
